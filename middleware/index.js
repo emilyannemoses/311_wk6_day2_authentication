@@ -1,5 +1,6 @@
 const jwksRsa = require('jwks-rsa');
-const jwt = require('express-jwt');
+// const jwt = require('express-jwt');
+var { expressjwt:jwt } = require("express-jwt")
 
 const logger = () => {}
 
